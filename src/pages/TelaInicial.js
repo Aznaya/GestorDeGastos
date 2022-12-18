@@ -27,16 +27,6 @@ const TelaInicial = ({ navigation }) => {
     }, []); // ? Consigo colocar essa parte dentro de um metodo e chamar ele aqui ?
 
     return (
-        // <div>
-        //     <h1>Gasto Mensal</h1>
-        //     <h1>Tabela de Gastos Mensal</h1>
-        //     <div>
-        //         <h1>Navegação</h1>
-        //         <h2>Botão de Registro</h2>
-        //         <h2>Botão de Pesquisa</h2>
-        //         <h2>Botão de Consulta por Mês</h2>
-        //     </div>
-        // </div>
         <SafeAreaView style={{
             flex: 1,
             flexDirection: 'column',
@@ -75,10 +65,6 @@ const TelaInicial = ({ navigation }) => {
                     customClick={() => navigation.navigate('Historico')}
                 />
             </View>
-            {/* <View style={{ flex: 1, backgroundColor: 'white' }}>
-                <View style={{ display: 'flex' }}>
-                </View>
-            </View> */}
         </SafeAreaView>
     )
 }
